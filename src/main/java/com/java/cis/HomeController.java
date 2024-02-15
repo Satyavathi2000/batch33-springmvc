@@ -1,5 +1,4 @@
 package com.java.cis;
-
 import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
@@ -16,7 +15,7 @@ public class HomeController {
     /**
      * Simply selects the home view to render by returning its name.
      */
-    @RequestMapping(value = "/", method = RequestMethod.GET)
+    @RequestMapping(value = "/Login", method = RequestMethod.GET)
     public String home(Locale locale, Model model) {
         System.out.println("Home Page Requested, locale = " + locale);
         Date date = new Date();
